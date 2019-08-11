@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+	<input type="text" name="" id="link">
+	<button id="submit" onclick="myFunction()">View</button>
+	<div class="iframe-container">
+    <iframe src="" frameborder="0" id="frame"></iframe>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+myFunction= function(){
+	document.getElementById('frame').src = document.getElementById("link").value
+}
+
+</script>
+</html>
